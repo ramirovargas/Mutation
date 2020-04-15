@@ -243,10 +243,16 @@ passIntent.putExtra(UxArgument.DISABLE_PASSCODE,new android.os.Parcelable[0]);
 
 ## MutAPK
 Es una herramienta para la generacion de mutantes usando APK
+Este es el proceso de instalacion
 ```
 git clone https://github.com/TheSoftwareDesignLab/MutAPK.git
 cd MutAPK
 mvn clean
 mvn package
+```
+
+Para correr el programa usando el Jar generado
+```
+java -jar MutAPK-0.0.1.jar <APKPath> <AppPackage> <Output> <ExtraComponentFolder> <operatorsDir> <multithread> <amountMutants>?
 ```
 
