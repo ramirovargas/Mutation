@@ -255,4 +255,5 @@ Para correr el programa usando el Jar generado
 ```
 java -jar MutAPK-0.0.1.jar <APKPath> <AppPackage> <Output> <ExtraComponentFolder> <operatorsDir> <multithread> <amountMutants>?
 ```
+Para los operadores que utiliza se pueden editar en el siguiente archivo `operators.properties`
 
