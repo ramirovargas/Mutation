@@ -1,0 +1,100 @@
+Mutant 1: .\\mutants\\\\net.usikkert.kouchat-mutant1\src\\AndroidManifest.xml; ActivityNotDefined in line { 9 }
+	For mutant 1 the lines between 10 and 15 have been deleted.
+Mutant 2: .\\mutants\\\\net.usikkert.kouchat-mutant2\src\\res\values\colors.xml; InvalidColor in line { 2 }
+	For mutant 2 the value of the color named "abc_input_method_navigation_guard" at line 3 has been changed from "@android:color/black" to "#9d246d00"
+Mutant 3: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant3\src\\smali\net\usikkert\kouchat\android\controller\MainChatController.smali; LengthyGUICreation in line { 420 }
+	For mutant 3 a large delay has been injected after GUI Creation at line 420
+Mutant 4: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant4\src\\smali\net\usikkert\kouchat\android\controller\MainChatController.smali; ViewComponentNotVisible in line { 494 }
+	For mutant 4 the visibility of element retrieved at line 456 has been set to INVISIBLE at lines: 496 and 498
+Mutant 5: .\\mutants\\\\net.usikkert.kouchat-mutant5\src\\AndroidManifest.xml; MissingPermissionManifest in line { 1 }
+	For mutant 5 the lines between 2 and 2 have been deleted.
+Mutant 6: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant6\src\\smali\net\usikkert\kouchat\android\controller\MainChatController.smali; InvalidViewFocus in line { 462 }
+	For mutant 6 focus has been requested for the element found at line 456
+Mutant 7: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant7\src\\smali\net\usikkert\kouchat\android\filetransfer\AndroidFileUtils.smali; ClosingNullCursor in line { 249 }
+	For mutant 7 Database cursor at line 249 has been set to null before close() call
+Mutant 8: .\\mutants\\\\net.usikkert.kouchat-mutant8\src\\AndroidManifest.xml; InvalidActivityPATH in line { 9 }
+	For mutant 8 activity name at line 9 has been change from "net.usikkert.kouchat.android.controller.MainChatController" to "net.usikkerttkoucha..android.controller.MainChatController"
+Mutant 9: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant9\src\\smali\net\usikkert\kouchat\net\FileReceiver.smali; NullOutputStream in line { 233 }
+	For mutant 9 Output Stream at line 233 has been set to null before calling close() method
+Mutant 10: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant10\src\\smali\net\usikkert\kouchat\android\filetransfer\AndroidFileUtils.smali; InvalidFilePath in line { 298 }
+	For mutant 10 the path of File at line 298 has been replaced by 133e41248af44ae39b5263dfc45e14f4
+Mutant 11: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant11\src\\smali\net\usikkert\kouchat\android\component\ComeBackDialog.smali; InvalidIDFindView in line { 37 }
+	For mutant 11 the id of the element retrieved at line 40 has been set to a random value
+Mutant 12: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant12\src\\smali\net\usikkert\kouchat\android\controller\MainChatController$4.smali; InvalidKeyIntentPutExtra in line { 76 }
+	For mutant 12 extra key value at line 76 has been set to b97af25054fd46b592246d0ade5933a6
+Mutant 13: .\\mutants\\\\net.usikkert.kouchat-mutant13\src\\AndroidManifest.xml; InvalidLabel in line { 15 }
+	For mutant 13 activity label at line 15 has been change from "@string/settings_title" to "0c37f1d7292c4b408b0c379e7afeea26"
+Mutant 14: .\\mutants\\\\net.usikkert.kouchat-mutant14\src\\AndroidManifest.xml; WrongMainActivity in line { 10 }
+	For mutant 14 activity "net.usikkert.kouchat.android.controller.MainChatController" at line 10 has been replaced as main activity by "net.usikkert.kouchat.android.controller.SettingsController" at line 16
+Mutant 15: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant15\src\\smali\net\usikkert\kouchat\android\component\ComeBackDialog.smali; FindViewByIdReturnsNull in lines { 40, 44 }
+	For mutant 15 the element retrieved at line 40 has been set to null
+Mutant 16: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant16\src\\smali\net\usikkert\kouchat\android\controller\MainChatController$4.smali; DifferentActivityIntentDefinition in line { 72 }
+	For mutant 16 component name at line 72 has been change from "Lnet/usikkert/kouchat/android/controller/PrivateChatController;" to "Lnet/usikkert/kouchat/android/controller/SettingsController;"
+Mutant 17: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant17\src\\smali\net\usikkert\kouchat\android\controller\MainChatController$4.smali; NullIntent in line { 74 }
+	For mutant 17 intent defined at lines 74 has been defined as null
+Mutant 18: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant18\src\\smali\net\usikkert\kouchat\net\FileReceiver.smali; NullInputStream in line { 171 }
+	For mutant 18 Input Stream at line 171 has been set to null before calling close() method
+Mutant 19: .\\mutants\\\\net.usikkert.kouchat-mutant19\src\\res\values\strings.xml; WrongStringResource in line { 2 }
+	For mutant 19 the value of the string named "abc_action_bar_home_description" at line 3 has been changed from "Navigate home" to "3d421ce061e74138bac8838f7789e493"
+Mutant 20: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant20\src\\smali\net\usikkert\kouchat\android\controller\MainChatController$4.smali; NullValueIntentPutExtra in line { 83 }
+	For mutant 20 extra intent value at line 83 has been set to 'new Parcelable[0]'
+Mutant 21: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant21\src\\smali\net\usikkert\kouchat\misc\CommandParser.smali; InvalidDate in line { 1888 }
+	For mutant 21 Date at line 1888 has been updated to 0x43b70d0L
+Mutant 22: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant22\src\\smali\net\usikkert\kouchat\android\app\KouChatApp.smali; NullMethodCallArgument in line { 65 }
+	For mutant 22, 2 parameter of method <init> have been replaced with null
+Mutant 23: C:\Users\rvargas\MutAPK\.\\mutants\\\\net.usikkert.kouchat-mutant23\src\\smali\net\usikkert\kouchat\android\controller\SendFileController$1.smali; LengthyGUIListener in line { 38 }
+	For mutant 23 a large delay has been injected after GUI Listener Creation at line 38
+Mutant 24: .\\mutants\\\\net.usikkert.kouchat-mutant24\src\\AndroidManifest.xml; ActivityNotDefined in line { 15 }
+	For mutant 24 the lines between 16 and 16 have been deleted.
+Mutant 25: .\\mutants\\\\net.usikkert.kouchat-mutant25\src\\AndroidManifest.xml; ActivityNotDefined in line { 16 }
+	For mutant 25 the lines between 17 and 17 have been deleted.
+Mutant 26: .\\mutants\\\\net.usikkert.kouchat-mutant26\src\\AndroidManifest.xml; ActivityNotDefined in line { 17 }
+	For mutant 26 the lines between 18 and 24 have been deleted.
+Mutant 27: .\\mutants\\\\net.usikkert.kouchat-mutant27\src\\AndroidManifest.xml; ActivityNotDefined in line { 24 }
+	For mutant 27 the lines between 25 and 25 have been deleted.
+Mutant 28: .\\mutants\\\\net.usikkert.kouchat-mutant28\src\\res\values\colors.xml; InvalidColor in line { 3 }
+	For mutant 28 the value of the color named "abc_search_url_text_normal" at line 4 has been changed from "#ff7fa87f" to "#2f416600"
+Mutant 29: .\\mutants\\\\net.usikkert.kouchat-mutant29\src\\res\values\colors.xml; InvalidColor in line { 4 }
+	For mutant 29 the value of the color named "abc_search_url_text_pressed" at line 5 has been changed from "@android:color/black" to "#ba656900"
+Mutant 30: .\\mutants\\\\net.usikkert.kouchat-mutant30\src\\res\values\colors.xml; InvalidColor in line { 5 }
+	For mutant 30 the value of the color named "abc_search_url_text_selected" at line 6 has been changed from "@android:color/black" to "#bfd4c400"
+Mutant 31: .\\mutants\\\\net.usikkert.kouchat-mutant31\src\\res\values\colors.xml; InvalidColor in line { 6 }
+	For mutant 31 the value of the color named "accent_material_dark" at line 7 has been changed from "@color/material_deep_teal_200" to "#adec1000"
+Mutant 32: .\\mutants\\\\net.usikkert.kouchat-mutant32\src\\res\values\colors.xml; InvalidColor in line { 7 }
+	For mutant 32 the value of the color named "accent_material_light" at line 8 has been changed from "@color/material_deep_teal_500" to "#1cd0e000"
+Mutant 33: .\\mutants\\\\net.usikkert.kouchat-mutant33\src\\res\values\colors.xml; InvalidColor in line { 8 }
+	For mutant 33 the value of the color named "background_floating_material_dark" at line 9 has been changed from "@color/material_grey_800" to "#25fdaa00"
+Mutant 34: .\\mutants\\\\net.usikkert.kouchat-mutant34\src\\res\values\colors.xml; InvalidColor in line { 9 }
+	For mutant 34 the value of the color named "background_floating_material_light" at line 10 has been changed from "@android:color/white" to "#64469000"
+Mutant 35: .\\mutants\\\\net.usikkert.kouchat-mutant35\src\\res\values\colors.xml; InvalidColor in line { 10 }
+	For mutant 35 the value of the color named "background_material_dark" at line 11 has been changed from "@color/material_grey_850" to "#7524f100"
+Mutant 36: .\\mutants\\\\net.usikkert.kouchat-mutant36\src\\res\values\colors.xml; InvalidColor in line { 11 }
+	For mutant 36 the value of the color named "background_material_light" at line 12 has been changed from "@color/material_grey_50" to "#c9674200"
+Mutant 37: .\\mutants\\\\net.usikkert.kouchat-mutant37\src\\res\values\colors.xml; InvalidColor in line { 12 }
+	For mutant 37 the value of the color named "bright_foreground_disabled_material_dark" at line 13 has been changed from "#80ffffff" to "#fa948200"
+Mutant 38: .\\mutants\\\\net.usikkert.kouchat-mutant38\src\\res\values\colors.xml; InvalidColor in line { 13 }
+	For mutant 38 the value of the color named "bright_foreground_disabled_material_light" at line 14 has been changed from "#80000000" to "#024fe100"
+Mutant 39: .\\mutants\\\\net.usikkert.kouchat-mutant39\src\\res\values\colors.xml; InvalidColor in line { 14 }
+	For mutant 39 the value of the color named "bright_foreground_inverse_material_dark" at line 15 has been changed from "@color/bright_foreground_material_light" to "#899ce900"
+Mutant 40: .\\mutants\\\\net.usikkert.kouchat-mutant40\src\\res\values\colors.xml; InvalidColor in line { 15 }
+	For mutant 40 the value of the color named "bright_foreground_inverse_material_light" at line 16 has been changed from "@color/bright_foreground_material_dark" to "#8b2e1200"
+Mutant 41: .\\mutants\\\\net.usikkert.kouchat-mutant41\src\\res\values\colors.xml; InvalidColor in line { 16 }
+	For mutant 41 the value of the color named "bright_foreground_material_dark" at line 17 has been changed from "@android:color/white" to "#dbbc0800"
+Mutant 42: .\\mutants\\\\net.usikkert.kouchat-mutant42\src\\res\values\colors.xml; InvalidColor in line { 17 }
+	For mutant 42 the value of the color named "bright_foreground_material_light" at line 18 has been changed from "@android:color/black" to "#ba758100"
+Mutant 43: .\\mutants\\\\net.usikkert.kouchat-mutant43\src\\res\values\colors.xml; InvalidColor in line { 18 }
+	For mutant 43 the value of the color named "button_material_dark" at line 19 has been changed from "#ff5a595b" to "#c652e200"
+Mutant 44: .\\mutants\\\\net.usikkert.kouchat-mutant44\src\\res\values\colors.xml; InvalidColor in line { 19 }
+	For mutant 44 the value of the color named "button_material_light" at line 20 has been changed from "#ffd6d7d7" to "#16610000"
+Mutant 45: .\\mutants\\\\net.usikkert.kouchat-mutant45\src\\res\values\colors.xml; InvalidColor in line { 20 }
+	For mutant 45 the value of the color named "dim_foreground_disabled_material_dark" at line 21 has been changed from "#80bebebe" to "#22f2d200"
+Mutant 46: .\\mutants\\\\net.usikkert.kouchat-mutant46\src\\res\values\colors.xml; InvalidColor in line { 21 }
+	For mutant 46 the value of the color named "dim_foreground_disabled_material_light" at line 22 has been changed from "#80323232" to "#1f2cfb00"
+Mutant 47: .\\mutants\\\\net.usikkert.kouchat-mutant47\src\\res\values\colors.xml; InvalidColor in line { 22 }
+	For mutant 47 the value of the color named "dim_foreground_material_dark" at line 23 has been changed from "#ffbebebe" to "#27bc4900"
+Mutant 48: .\\mutants\\\\net.usikkert.kouchat-mutant48\src\\res\values\colors.xml; InvalidColor in line { 23 }
+	For mutant 48 the value of the color named "dim_foreground_material_light" at line 24 has been changed from "#ff323232" to "#1ffad200"
+Mutant 49: .\\mutants\\\\net.usikkert.kouchat-mutant49\src\\res\values\colors.xml; InvalidColor in line { 24 }
+	For mutant 49 the value of the color named "error_color_material" at line 25 has been changed from "#fff4511e" to "#d6993e00"
+Mutant 50: .\\mutants\\\\net.usikkert.kouchat-mutant50\src\\res\values\colors.xml; InvalidColor in line { 25 }
+	For mutant 50 the value of the color named "foreground_material_dark" at line 26 has been changed from "@android:color/white" to "#c9f94800"

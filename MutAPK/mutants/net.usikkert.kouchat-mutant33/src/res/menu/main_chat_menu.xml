@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/abc_ic_menu_overflow_material" android:id="@id/mainChatMenu" android:title="@string/menu" app:showAsAction="always">
+        <menu>
+            <item android:id="@id/mainChatMenuSettings" android:title="@string/settings" app:showAsAction="withText" />
+            <item android:id="@id/mainChatMenuAway" android:title="@string/away" app:showAsAction="withText" />
+            <item android:id="@id/mainChatMenuTopic" android:title="@string/topic" app:showAsAction="withText" />
+            <item android:id="@id/mainChatMenuAbout" android:title="@string/about" app:showAsAction="withText" />
+            <item android:id="@id/mainChatMenuQuit" android:title="@string/quit" app:showAsAction="withText" />
+        </menu>
+    </item>
+</menu>

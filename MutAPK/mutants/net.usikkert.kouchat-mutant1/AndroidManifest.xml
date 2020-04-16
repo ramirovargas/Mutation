@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="net.usikkert.kouchat.android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.wifi"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="net.usikkert.kouchat.android.app.KouChatApp" android:theme="@style/Theme.KouChat.Light">
+        <activity android:label="@string/settings_title" android:name="net.usikkert.kouchat.android.controller.SettingsController"/>
+        <activity android:label="@string/private_chat_title" android:name="net.usikkert.kouchat.android.controller.PrivateChatController" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="net.usikkert.kouchat.android.controller.SendFileController" android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:name="net.usikkert.kouchat.android.controller.ReceiveFileController" android:taskAffinity="" android:theme="@style/Theme.KouChat.Dialog.Translucent"/>
+        <service android:name="net.usikkert.kouchat.android.service.ChatService"/>
+        <service android:name="net.usikkert.kouchat.android.service.CancelFileTransferService"/>
+    </application>
+</manifest>

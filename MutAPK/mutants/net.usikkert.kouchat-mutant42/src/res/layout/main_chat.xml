@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/mainChatScroll" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/mainChatUserList" android:layout_above="@id/mainChatInput" android:layout_alignParentLeft="true">
+        <TextView android:textSize="@dimen/text_size" android:id="@id/mainChatView" android:padding="@dimen/chat_view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/line_spacing_multiplier" android:textIsSelectable="true" />
+    </ScrollView>
+    <ListView android:id="@id/mainChatUserList" android:layout_width="@dimen/user_list_width" android:layout_height="fill_parent" android:layout_above="@id/mainChatInput" android:layout_alignParentRight="true" />
+    <EditText android:id="@id/mainChatInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:inputType="text" android:imeOptions="actionSend|flagNoFullscreen" />
+</RelativeLayout>

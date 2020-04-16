@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size" android:id="@id/goAwayDialogMessage" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_away_dialog_message" />
+    <EditText android:textSize="@dimen/text_size" android:id="@id/goAwayDialogInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:hint="@string/go_away_dialog_enter_away_message_hint" />
+</LinearLayout>
