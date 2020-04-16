@@ -240,7 +240,49 @@ passIntent.putExtra(UxArgument.DISABLE_PASSCODE,new android.os.Parcelable[0]);
 **Random Testing:** El random Testing también detecto el mutante
 
 ---
+## Striker
+Se ejecuta el ejemplo robobar, y para la mutacion se ejecuta dos veces stryker para ver la cantidad
+de mutantes generados.
+Link repositorio: https://github.com/angelaanaya2309/taller_8
 
+![](assets/Striker-1.png)
+
+![](assets/Striker-2.png)
+
+En la primera ejecución se generaron 126 mutantes el 58.73% fueron detectados. Podemos ver el
+en el informe el detalle.
+
+![](assets/Striker-3.png)
+
+![](assets/Striker-4.png)
+
+![](assets/Striker-5.png)
+
+![](assets/Striker-6.png)
+
+![](assets/Striker-7.png)
+
+![](assets/Striker-8.png)
+
+En la segunda ejecución se generaron 126 mutantes el 28.8% fueron detectados. Podemos ver el
+en el informe el detalle.
+Se realizaron algunos cambios en la configuración de stryker mostradas en el archivo de
+configuración:
+
+![](assets/Striker-9.png)
+
+![](assets/Striker-10.png)
+
+![](assets/Striker-11.png)
+
+![](assets/Striker-12.png)
+
+![](assets/Striker-13.png)
+
+![](assets/Striker-14.png)
+
+
+---
 ## MutAPK
 Es una herramienta para la generacion de mutantes usando APK
 Este es el proceso de instalacion
