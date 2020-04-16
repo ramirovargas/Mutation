@@ -250,10 +250,29 @@ cd MutAPK
 mvn clean
 mvn package
 ```
+Parametros que se pueden usar
+
+* APK path: directorio del apk
+* AppPackage: ruta al packete principal de la app
+* Output: directorio donde se van a crear los mutantes
+* ExtraCompFolder: ruta a componentes extra (MutAPK/extra/);
+* operatorsDir: archivo que contiene los posibles operadores operators.properties.
+* multithread : true or false habilita o no el uso de concurrencia
+* amountOfMutants : selecciona numero de mutantes a ejecutar
 
 Para correr el programa usando el Jar generado
 ```
 java -jar MutAPK-0.0.1.jar <APKPath> <AppPackage> <Output> <ExtraComponentFolder> <operatorsDir> <multithread> <amountMutants>?
 ```
 Para los operadores que utiliza se pueden editar en el siguiente archivo `operators.properties`
+
+La salida del programa nos da :
+* Apk del programa mutado
+* Log de ejecucion
+* representacion PFP formato JSON
+* Reporte de tiempo del programa
+
+
+
+
 
