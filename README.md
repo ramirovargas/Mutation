@@ -273,6 +273,10 @@ Para la prueba en el codigo esta los datos generados para Kouchat
 * representacion PFP formato JSON
 * Reporte de tiempo del programa (csv con tiempos para cada mutante)
 
+Para ejecutar las pruebas se corrio el siguiente comando , al principio se generao porblemas con el archivo hay que crear la carpeta mutans a mano
+```
+java -jar target\\MutAPK-0.0.1.jar .\\KouChat-1.1.1.apk net.usikkert.kouchat .\\mutants\\ .\\extra\\ . false 50
+```
 
 
 
