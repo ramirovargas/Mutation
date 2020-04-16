@@ -267,10 +267,11 @@ java -jar MutAPK-0.0.1.jar <APKPath> <AppPackage> <Output> <ExtraComponentFolder
 Para los operadores que utiliza se pueden editar en el siguiente archivo `operators.properties`
 
 La salida del programa nos da :
-* Apk del programa mutado
-* Log de ejecucion
+Para la prueba en el codigo esta los datos generados para Kouchat
+* Apk del programa mutado (normal , signed , y archivo manifest de android)
+* Log de ejecucion 
 * representacion PFP formato JSON
-* Reporte de tiempo del programa
+* Reporte de tiempo del programa (csv con tiempos para cada mutante)
 
 
 
